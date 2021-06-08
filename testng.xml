@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CyberSecurity Test Automation Suite" parallel="none">
+	
+	<listeners>
+        <listener class-name="commonUtils.ListnerITest"/>
+    </listeners>
+    <test name="CyberSeurity Test case">
+		<classes>
+			<class name="commonUtils.TestRunner" />
+		</classes>
+	</test>
+</suite>
